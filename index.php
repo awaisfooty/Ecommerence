@@ -12,7 +12,7 @@
                             <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Travelling</h2>
                             <h4 style="padding-right: 40px; text-align: end; font-size: 20px; font-weight: 400;">T-shirts Start At $24.00</h4>
                             <div class="btn-adjust-1"> <button>Shop Now</button></div>
-                            <div class="img-adjust"><img src="file:///C:/Users/Derwaish/Desktop/custom/isolated-man-img.png" alt=""></div>
+                            <div class="img-adjust"><img src="./" alt=""></div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6">

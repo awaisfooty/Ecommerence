@@ -27,7 +27,6 @@
                 <p style="font-size: 14px;">Payment Method</p>
                 <p style="font-size: 14px; font-weight:400 ">Address</p>
                 <p style="font-size: 14px; font-weight:400">Lost Password</p>
-                gjhhkjhlkjhlkjhlkjhlkjhlkh
             </div>
         </div>
     </div>
