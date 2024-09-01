@@ -65,26 +65,3 @@
     </div>       
     </div>
 <?php get_footer(); ?>
-
-
-
-  <main>
-    <section class="blog-posts">
-      <h2>Latest Fashion Trends</h2>
-      <div class="blog-post">
-        <img src="image1.jpg" alt="Fashion Image 1">
-        <h3>Summer Vibes</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
-      </div>
-      <div class="blog-post">
-        <img src="image2.jpg" alt="Fashion Image 2">
-        <h3>Winter Wonderland</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
-      </div>
-      <div class="blog-post">
-        <img src="image3.jpg" alt="Fashion Image 3">
-        <h3>Spring Florals</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
-      </div>
-    </section>
-  </main>

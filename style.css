@@ -34,7 +34,6 @@ Description: Blog,Shop
 }
 .icons{
     font-size: 25px;
-    padding-top: 12px;
     font-weight: 600;
     
 }
@@ -46,6 +45,10 @@ ul#menu-top-menu {
     font-size: 20px;
     color: black;
     text-decoration: none;
+    padding-top: 15px;
+}
+ul.sub-menu {
+    display: none;
 }
 .btn-adjust-1{
     text-align: end;
@@ -328,16 +331,6 @@ main {
     text-decoration: none;
     color: #337ab7;
   }
-
-
-
-
-
-
-
-
-
-
   #contact-form {
     max-width: 500px;
     margin: 40px auto;
@@ -371,3 +364,63 @@ main {
   input[type="submit"]:hover {
     background-color: #3e8e41;
   } 
+  
+
+
+
+
+
+
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-filter {
+    margin-bottom: 20px;
+  }
+  
+  .product-slider {
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-item {
+    margin: 20px;
+    width: 200px;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .product-item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product-item p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .product-item button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-item button:hover {
+    background-color: #444;
+  }
