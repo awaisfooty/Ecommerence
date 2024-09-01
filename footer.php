@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-lg-3 col-md-3">
-                <a href="http://localhost/store/"><img style="border-radius: 20px;" src="https://sun6-22.userapi.com/s/v1/ig2/4ZxvZ2V93ayvtqAdGBled--OSBN1w4PVD8BRa2NQWaqxRlBAuNnIVblxwwZFFnhgc37ERfUX1fw6UfjKbOT8h_D0.jpg?size=50x50&quality=95&crop=224,0,1082,1082&ava=1" alt=""></a>
+                <a href="http://localhost/ecommerence/"><img style="border-radius: 20px;" src="https://sun6-22.userapi.com/s/v1/ig2/4ZxvZ2V93ayvtqAdGBled--OSBN1w4PVD8BRa2NQWaqxRlBAuNnIVblxwwZFFnhgc37ERfUX1fw6UfjKbOT8h_D0.jpg?size=50x50&quality=95&crop=224,0,1082,1082&ava=1" alt=""></a>
                 <p style="font-size: 14px; padding-top: 20px; font-weight:400 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus ipsa doloribus illo totam impedit in perferendis fuga obcaecati reprehenderit?</p>
             </div>
             <div class="col-sm-12 col-lg-3 col-md-3">

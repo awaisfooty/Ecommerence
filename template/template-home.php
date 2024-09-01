@@ -1,14 +1,79 @@
 <?php get_header(); ?>
-<?php
-/*
- Template Name: Home
-*/
-?>
-    <h1 style="text-align: center; font-size: 30px; font-weight:800; margin-top: 30px;">Home</h1>
-    <p style="font-size: 14px; font-weight:600; text-align: center; margin-top: 30px;">Thanks For Vistiing Us All Products Are Here</p>
 
-    <div class="all-products">
-    <div class="product-cards">
+    <sale-section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="content-box">
+                            <h1 style="text-align: end; font-size: 25px; color: white; font-weight: 500; padding-right: 25px;">30% <br> OFF</h1>
+                            <h5 style="color: white; text-align: end; font-size: 14px; font-weight: 600; padding-right: 50px; letter-spacing: 2px;">BestSeller Store</h5>
+                            <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">EveryThing</h2>
+                            <h3 style="text-align: end; padding-right: 40px; font-size: 30px; font-weight: 400;">For Your</h3>
+                            <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Travelling</h2>
+                            <h4 style="padding-right: 40px; text-align: end; font-size: 20px; font-weight: 400;">T-shirts Start At $24.00</h4>
+                            <div class="btn-adjust-1"> <button>Shop Now</button></div>
+                            <div class="img-adjust"><img src="./" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="content-box-1">
+                            <h5 style="color: white; padding-top: 40px; font-size: 14px; font-weight: 600; padding-left: 50px; letter-spacing: 2px;">Top New Arrivels</h5>
+                            <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-left: 50px; font-size: 40px;">Fashion <br> Collection</h2>
+                            <h4 style="padding-left: 40px; padding-top: 30px; font-size: 18px; font-weight: 400;">Discover Top New Desgins</h4>
+                            <div class="btn-adjust-2"> <button>Shop Now</button></div>
+                            <div class="img-adjust-1"><img src="./photos/images__1_-removebg-preview (1).png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="box-content-2">
+                            <div class="back-img">
+                                <img src="man-wearing-eyeglasses-and-brown-jacket.jpg" alt=""></div>
+                                <div class="img-data">
+                                    <h5 style="color: rgb(41, 28, 28); text-align: end; padding-top: 40px; font-size: 14px; font-weight: 600; padding-right: 50px; letter-spacing: 2px;">Top New Arrivels</h5>
+                                    <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Sport</h2>
+                                    <h3 style="text-align: end; padding-right: 40px; font-size: 30px; font-weight: 400;">For Your</h3>
+                                    <div class="btn-adjust-3"> <button>Shop Now</button></div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="box-content-3">
+                            <div class="shoes-box">
+                                <div class="shoes-img">
+                                    <img src="./s-l1600 (1).jpg" alt="">
+                                    <div class="shoes-data">
+                                        <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Shoe's</h2>
+                                        <h3 style="text-align: end; color: white; padding-right: 40px; font-size: 30px; font-weight: 400;">For Your</h3>
+                                        <a style="color: #ff8900; font-size: 18px;"  href="">Shop Now →</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="watch-box">
+                                <div class="watch-img">
+                                    <img src="./photos/" alt="">
+                                    <div class="watch-data">
+                                        <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Watch</h2>
+                                        <h3 style="text-align: end; color: white; padding-right: 40px; font-size: 30px; font-weight: 400;">Collection</h3>
+                                        <a style="color: #ff8900;" href="">Show Now  →</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+    </sale-section>
+    <product-section>
+        <div class="product">
+            <div class="product-div">
+                <div class="div"></div>
+            </div>
+            <div class="product-heading">Featured Product</div>
+            <div class="product-cards">
                 <div class="card-1">
                     <div class="card" style="width: 18rem;">
                         <img src="https://avatars.mds.yandex.net/i?id=d0ba8c62bb0c956054484f0197d588ad815b6ffd-12208630-images-thumbs&n=13" class="card-img-top" alt="...">
@@ -55,17 +120,65 @@
                     </div>
                 </div>
             </div> 
-    </div>
-    <div class="product-cards">
-                    <div class="card-1">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://avatars.mds.yandex.net/i?id=97e58ab747f74b9e245ff7707de360ac95e0ee36-4375862-images-thumbs&n=13" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Long-Sleeve Shirt male Slim Fashion stand</h5>
-                                <p style="text-align: center;" class="card-text">$2500.00</p>
-                            </div>
-                        </div>
+        </div>
+    </product-section>
+    <category-section>
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-lg-8">
+                <div class="glass-section">
+                    <h5 style="color: white; padding-top: 40px; font-size: 14px; text-align: end; font-weight: 600; padding-right: 50px; letter-spacing: 2px;">Top New Arrivels</h5>
+                    <h1 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Fashion</h1>
+                    <h3 style="color: white; font-weight: 500; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Sunglassess</h3>
+                    <div class="btn-adjust-4"> <button>Shop Now</button></div>
+                    <div class="glass-img"><img src="https://alkhaleejtoday.news/wp-content/uploads/2024/02/1707868260_%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%85-1024x683-930x620.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="shorts-section">
+                    <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: center; font-size: 40px;">Sport</h2>
+                    <h3 style="text-align: center; padding-right: 40px; font-size: 30px; font-weight: 400;">For Your</h3>
+                    <a style="color: #ff8900;" href="">Show Now  →</a>
+                    <div class="shorts-img">
+                        <img src="https://avatars.mds.yandex.net/i?id=9450801bfc1555e3912e27821609fef9f9bbe2fd-6298174-images-thumbs&ref=rim&n=33&w=162&h=200" alt="">
                     </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </category-section>
+    <best-seller>
+        <div class="product">
+                <div class="product-div">
+                    <div class="div"></div>
+                </div>
+                <div class="product-heading">Best Seller</div>
+                <div class="product-cards">
+                    <?php
+                        $args = array(
+                            'post_type'  => 'product',
+                            'posts_per_page' => 9,
+                        );
+                        $loop = new WP_Query($args);
+                        while ( $loop->have_posts() ) {
+                            $loop->the_post();
+                            $id = get_the_ID();
+                            $prodcut_price = get_post_meta($id, 'product_price', true);
+                            $product_currency = get_post_meta($id, 'product_currency', true);
+                            $product_quantity = get_post_meta($id, 'product_quantity', true);
+                            ?>
+                            <div class="card-1">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://avatars.mds.yandex.net/i?id=d0ba8c62bb0c956054484f0197d588ad815b6ffd-12208630-images-thumbs&n=13" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="<?php echo get_the_permalink($id); ?>"><h5 class="card-title">Long-Sleeve Shirt male Slim Fashion stand</h5></a>
+                                        <p style="text-align: center;" class="card-text"><?php echo $product_quantity; ?> <br>  <?php echo $product_currency; ?> <?php echo $prodcut_price; ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php
+                        }
+                    ?>
                     <div class="card-1">
                         <div class="card" style="width: 18rem;">
                             <img src="https://avatars.mds.yandex.net/i?id=cbe685ca46168ce34efa19ff2915f00cf3045790-9149651-images-thumbs&n=13" class="card-img-top" alt="...">
@@ -102,100 +215,60 @@
                             </div>
                         </div>
                     </div>
-    </div> 
-    <div class="product-cards">
-                    <div class="card-1">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://avatars.mds.yandex.net/i?id=342f78261e69a57fab5b4623e5c1b1c139f2fb20-5088393-images-thumbs&n=13" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Long-Sleeve Shirt male Slim Fashion stand</h5>
-                                <p style="text-align: center;" class="card-text">$2500.00</p>
-                            </div>
+                </div> 
+            </div>
+    </best-seller>
+    <link-advantage>
+        <div class="advanatge-links">
+            <div class="line"></div>
+            <div style="margin-top: 50px; margin-bottom: 50px; margin-right: 100px; margin-left: 100px;" class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="links">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <div class="links-data">
+                            <h1>Free Shipping</h1>
+                            <p>Capped at 39$ per oder</p>
                         </div>
                     </div>
-                    <div class="card-1">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://avatars.mds.yandex.net/i?id=6166e379654b8cfef7fb15917239117039131040-7051656-images-thumbs&n=13" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">140+ Sublimation TShirt Template Psd Free </h5>
-                                <p style="text-align: center;" class="card-text">$2399.00</p>
-                            </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="links">
+                        <i class="fa-brands fa-paypal"></i>
+                        <div class="links-data">
+                            <h1>Quick Payment</h1>
+                            <p>100% secure Payment</p>
                         </div>
                     </div>
-                    <div class="card-1">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://avatars.mds.yandex.net/i?id=069c4414fe44510afbf722aa991af3b2d167d3ce-12439486-images-thumbs&n=13" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Breitling for bentley mulliner tourbillon Breitling</h5>
-                                <p style="text-align: center;" class="card-text">$2199.00</p>
-                            </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="links">
+                        <i class="fa-solid fa-gift"></i>
+                        <div class="links-data">
+                            <h1>Gift Certificate</h1>
+                            <p>Buy now 100$ to 1000$</p>
                         </div>
                     </div>
-                    <div class="card-1">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://avatars.mds.yandex.net/i?id=28871b1c1bf409d2e528ec7268b0f21fa86876fb-9198383-images-thumbs&n=13" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Sacai x Nike VaporWaffle Black Gum DD1875</h5>
-                                <p style="text-align: center;" class="card-text">$2399.00</p>
-                            </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="links">
+                        <i class="fa-regular fa-clock"></i>
+                        <div class="links-data">
+                            <h1>24/7 Support</h1>
+                            <p>Ready your Oder</p>
                         </div>
                     </div>
-                    <div class="card-1">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://avatars.mds.yandex.net/i?id=22125ebe0e49684fc3d6acb78f4ef8b2192963be-9180844-images-thumbs&n=13" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Shoulder Bag Bolsas Femininas Sac Fashion </h5>
-                                <p style="text-align: center;" class="card-text">$2799.00</p>
-                            </div>
-                        </div>
-                    </div>
-    </div> 
-    <div class="product-cards">
-                    <div class="card-1">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://avatars.mds.yandex.net/i?id=a2624dc0951d1cfdb333ca6f40934a6035dc0239f6481e42-10244453-images-thumbs&n=13" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Long-Sleeve Shirt male Slim Fashion stand</h5>
-                                <p style="text-align: center;" class="card-text">$2500.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-1">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://avatars.mds.yandex.net/i?id=4b58b23c6e19c74c45f19150dd488cedb105f5d8-12208630-images-thumbs&n=13" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">140+ Sublimation TShirt Template Psd Free </h5>
-                                <p style="text-align: center;" class="card-text">$2399.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-1">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://avatars.mds.yandex.net/i?id=e95190d4ddad0c0449ce4b7b450b8d23253d9cbb-12724437-images-thumbs&n=13" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Breitling for bentley mulliner tourbillon Breitling</h5>
-                                <p style="text-align: center;" class="card-text">$2199.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-1">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://avatars.mds.yandex.net/i?id=b47feab21bdd702c2cb3e6611a44e27f99842255-10122395-images-thumbs&n=13" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Sacai x Nike VaporWaffle Black Gum DD1875</h5>
-                                <p style="text-align: center;" class="card-text">$2399.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-1">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://avatars.mds.yandex.net/i?id=5726e9a14519d4702300e2590c91457a0ca207c0-10837594-images-thumbs&n=13" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Shoulder Bag Bolsas Femininas Sac Fashion </h5>
-                                <p style="text-align: center;" class="card-text">$2799.00</p>
-                            </div>
-                        </div>
-                    </div>
-    </div> 
+                </div>
+            </div>
+        </div>
+    </link-advantage>
+    <newsletter-section>
+            <div class="letter">
+                 <h5 style="color: white; font-weight: 700; padding-top: 10px; letter-spacing: 2px; font-size: 20px;">Subcribe To Our</h5>
+                 <h1 style="color: white; font-weight: 900; padding-top: 10px; letter-spacing: 2px; font-size: 40px;">Newletter</h1>
+                 <p style="color: white; padding-top: 10px; font-size: 14px; font-weight: 600; letter-spacing: 2px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                 <input type="email" placeholder="Enter Your Email">
+                 <button>Subcribe</button>
+            </div>
+    </newsletter-section>
 
 <?php get_footer(); ?>

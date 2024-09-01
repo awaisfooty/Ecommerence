@@ -1,5 +1,5 @@
 /* 
-Theme Name: Clothes Store
+Theme Name: ecommerence
 Description: Blog,Shop
  Author: Random
 
@@ -367,53 +367,41 @@ main {
   
 
 
-
-
-
-
-  .product-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  .product-detail-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  .product-filter {
-    margin-bottom: 20px;
+  .product-image {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
   }
   
-  .product-slider {
-    margin-bottom: 20px;
-  }
-  
-  .product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .product-item {
-    margin: 20px;
-    width: 200px;
-  }
-  
-  .product-item img {
+  .product-image img {
     width: 100%;
-    height: 150px;
-    object-fit: cover;
+    height: auto;
   }
   
-  .product-item h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
+  .product-information {
+    float: left;
+    width: 60%;
   }
   
-  .product-item p {
-    font-size: 14px;
-    margin-bottom: 10px;
+  .product-information h2 {
+    margin-top: 0;
   }
   
-  .product-item button {
-    background-color: #333;
+  .product-information p {
+    margin-bottom: 20px;
+  }
+  
+  .add-to-cart {
+    background-color: #4CAF50;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -421,6 +409,128 @@ main {
     cursor: pointer;
   }
   
-  .product-item button:hover {
+  .add-to-cart:hover {
+    background-color: #3e8e41;
+  }
+  
+  .product-features, .product-reviews, .related-products, .product-specifications, .shipping-information, .return-policy {
+    clear: both;
+    margin-top: 20px;
+  }
+  
+  .product-features h3, .product-reviews h3, .related-products h3, .product-specifications h3, .shipping-information h3, .return-policy h3 {
+    margin-top: 0;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .product-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-item h3 {
+    margin-top: 0;
+  }
+  
+  .product-item p {
+    margin-bottom: 20px;
+  }
+  
+  .add-to-cart {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #3e8e41;
+  }
+
+  /* Product Container */
+.product-container {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Product Image */
+  .product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  /* Product Details */
+  .product-details {
+    padding: 20px;
+  }
+  
+  /* Product Name */
+  .product-details h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Product Price */
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Product Colors */
+  .colors {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Product Description */
+  .description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Add to Cart Button */
+  .add-to-cart {
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
     background-color: #444;
   }

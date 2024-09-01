@@ -1,4 +1,9 @@
 <?php
+
+    include_once(get_stylesheet_directory() . '/functions/posts/product.php');
+    include_once(get_stylesheet_directory() . '/functions/metaboxes/mateboxes.php');
+    include_once(get_stylesheet_directory() . '/functions/taxonomy/taxonomy.php');
+
     function includes_css_files() {
         wp_enqueue_style( 'slick-1', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css', [], '21.2.7', 'all' );
         wp_enqueue_style( 'slick-2', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css', [], '21.2.7', 'all' );
