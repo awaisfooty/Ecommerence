@@ -12,7 +12,9 @@
                             <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Travelling</h2>
                             <h4 style="padding-right: 40px; text-align: end; font-size: 20px; font-weight: 400;">T-shirts Start At $24.00</h4>
                             <div class="btn-adjust-1"> <button>Shop Now</button></div>
-                            <div class="img-adjust"><img src="./" alt=""></div>
+                            <div class="img-adjust">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/isolated-man-img.png" alt="">
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6">
@@ -21,17 +23,20 @@
                             <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-left: 50px; font-size: 40px;">Fashion <br> Collection</h2>
                             <h4 style="padding-left: 40px; padding-top: 30px; font-size: 18px; font-weight: 400;">Discover Top New Desgins</h4>
                             <div class="btn-adjust-2"> <button>Shop Now</button></div>
-                            <div class="img-adjust-1"><img src="./photos/images__1_-removebg-preview (1).png" alt=""></div>
+                            <div class="img-adjust-1">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/images__1_-removebg-preview (1).png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>    
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <div class="box-content-2">
                             <div class="back-img">
-                                <img src="man-wearing-eyeglasses-and-brown-jacket.jpg" alt=""></div>
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/man-wearing-eyeglasses-and-brown-jacket.jpg" alt="">
+                            </div>
                                 <div class="img-data">
                                     <h5 style="color: rgb(41, 28, 28); text-align: end; padding-top: 40px; font-size: 14px; font-weight: 600; padding-right: 50px; letter-spacing: 2px;">Top New Arrivels</h5>
                                     <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Sport</h2>
@@ -44,7 +49,7 @@
                         <div class="box-content-3">
                             <div class="shoes-box">
                                 <div class="shoes-img">
-                                    <img src="./s-l1600 (1).jpg" alt="">
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE4MjMwfQ" alt="">
                                     <div class="shoes-data">
                                         <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Shoe's</h2>
                                         <h3 style="text-align: end; color: white; padding-right: 40px; font-size: 30px; font-weight: 400;">For Your</h3>
@@ -54,7 +59,7 @@
                             </div>
                             <div class="watch-box">
                                 <div class="watch-img">
-                                    <img src="./photos/" alt="">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/chasy-omega-seamaster-co-axial.jpg" alt="">
                                     <div class="watch-data">
                                         <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Watch</h2>
                                         <h3 style="text-align: end; color: white; padding-right: 40px; font-size: 30px; font-weight: 400;">Collection</h3>
@@ -66,6 +71,7 @@
                     </div> 
                 </div>
             </div>
+            
     </sale-section>
     <product-section>
         <div class="product">
@@ -131,16 +137,18 @@
                     <h1 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Fashion</h1>
                     <h3 style="color: white; font-weight: 500; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Sunglassess</h3>
                     <div class="btn-adjust-4"> <button>Shop Now</button></div>
-                    <div class="glass-img"><img src="https://alkhaleejtoday.news/wp-content/uploads/2024/02/1707868260_%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%85-1024x683-930x620.jpg" alt=""></div>
+                    <div class="glass-img">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>./assets/images/_dc3IE6SE3c-removebg-preview.png" alt="">
+                    </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="shorts-section">
                     <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: center; font-size: 40px;">Sport</h2>
-                    <h3 style="text-align: center; padding-right: 40px; font-size: 30px; font-weight: 400;">For Your</h3>
+                    <h3 style="text-align: center; padding-right: 40px;  font-size: 30px; font-weight: 400;">For Your</h3>
                     <a style="color: #ff8900;" href="">Show Now  →</a>
-                    <div class="shorts-img">
-                        <img src="https://avatars.mds.yandex.net/i?id=9450801bfc1555e3912e27821609fef9f9bbe2fd-6298174-images-thumbs&ref=rim&n=33&w=162&h=200" alt="">
+                    <div style="z-index: 3;" class="shorts-img">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>./assets/images/5cf9364c952627fc79d4144baa154917-removebg-preview.png" alt="">
                     </div>
                 </div>
             </div>
@@ -154,16 +162,32 @@
                 </div>
                 <div class="product-heading">Best Seller</div>
                 <div class="product-cards">
-                    <div class="card-1">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://avatars.mds.yandex.net/i?id=97e58ab747f74b9e245ff7707de360ac95e0ee36-4375862-images-thumbs&n=13" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Long-Sleeve Shirt male Slim Fashion stand</h5>
-                                <p style="text-align: center;" class="card-text">$2500.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-1">
+                    <?php
+                            $args = array(
+                                'post_type'  => 'product',
+                                'posts_per_page' => 5,
+                            );
+                            $loop = new WP_Query($args);
+                            while ( $loop->have_posts() ) {
+                                $loop->the_post();
+                                $id = get_the_ID();
+                                $prodcut_price = get_post_meta($id, 'product_price', true);
+                                $product_currency = get_post_meta($id, 'product_currency', true);
+                                $product_quantity = get_post_meta($id, 'product_quantity', true);
+                                ?>
+                                <div class="card-1">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://avatars.mds.yandex.net/i?id=8829ca1147ac4bcf0b2b47f0997396da54afbd6c-4077387-images-thumbs&n=13" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <a href="<?php echo get_the_permalink($id); ?>"><h5 class="card-title"><?php echo get_the_title();?></h5></a>
+                                            <p style="text-align: center;" class="card-text"><?php echo $product_quantity; ?> <br>  <?php echo $product_currency; ?> <?php echo $prodcut_price; ?></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <?php
+                            }
+                    ?>
+                    <!-- <div class="card-1">
                         <div class="card" style="width: 18rem;">
                             <img src="https://avatars.mds.yandex.net/i?id=cbe685ca46168ce34efa19ff2915f00cf3045790-9149651-images-thumbs&n=13" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -198,7 +222,7 @@
                                 <p style="text-align: center;" class="card-text">$2799.00</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div> 
             </div>
     </best-seller>

@@ -1,35 +1,40 @@
 <?php get_header(); ?>
 
-        <!-- Product Container -->
     <div class="container">
         <div class="product-container">
-                <!-- Product Image -->
-            <img src="https://avatars.mds.yandex.net/i?id=d0ba8c62bb0c956054484f0197d588ad815b6ffd-12208630-images-thumbs&n=13" alt="Product Image" class="product-image">
-            
-            <!-- Product Details -->
-            <div class="product-details">
-                <!-- Product Name -->
-                <h2>Men's Casual Shirt</h2>
-                
-                <!-- Product Price -->
-                <p class="price">$25.99</p>
-                
-                <!-- Product Colors -->
-                <div class="colors">
-                    <p>Colors</p>
-                <span class="color" style="background-color: #ffffff;"></span>
-                <span class="color" style="background-color: #000000;"></span>
-                <span class="color" style="background-color: #808080;"></span>
-                <span class="color" style="background-color: #0000FF"></span>
-                <span class="color" style="background-color: #AA0000"></span>
-                <span class="color" style="background-color: #FFFF00"></span>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <?php 
+                        $img = wp_get_attachment_image_src(get_post_thumbnail_id(),'small');
+                        if ($img == ''){
+                        ?>
+                        <?php
+                        }else {
+                            ?>
+                                <img class="new-post" src="<?php echo $img[0]; ?>" alt="">
+                            <?php
+                        }
+                    ?>
                 </div>
-                
-                <!-- Product Description -->
-                <p class="description">A casual shirt for men, perfect for everyday wear.</p>
-                
-                <!-- Add to Cart Button -->
-                <button class="add-to-cart">Add to Cart</button>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="product-details">
+                    <h2>Men's Casual Shirt</h2>
+                    <p class="price">$25.99</p>
+                    <div class="colors">
+                        <p>Colors</p>
+                    <span class="color" style="background-color: #ffffff;"></span>
+                    <span class="color" style="background-color: #000000;"></span>
+                    <span class="color" style="background-color: #808080;"></span>
+                    <span class="color" style="background-color: #0000FF"></span>
+                    <span class="color" style="background-color: #AA0000"></span>
+                    <span class="color" style="background-color: #FFFF00"></span>
+                    </div>
+                    
+                    <p class="description">A casual shirt for men, perfect for everyday wear.</p>
+
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                </div>
             </div>
         </div>
     </div>
@@ -56,7 +61,7 @@
                         <button class="add-to-cart">Add to Cart</button>
                     </div>
                     <div class="product-item">
-                        <img src="https://avatars.mds.yandex.net/i?id=0084bd44af6d78759256b0f7c4cf706552792b6c-5233195-images-thumbs&n=13" alt="Product Image 3">
+                        <img src="https://avatars.mds.yandex.net/i?id=28e80e36e2e8a3954b7415925e8084d1653fa704-8209878-images-thumbs&n=13" alt="Product Image 3">
                         <h3>Product 3</h3>
                         <p>Price: $49.99</p>
                         <button class="add-to-cart">Add to Cart</button>
@@ -73,7 +78,6 @@
                         <p>Price: $49.99</p>
                         <button class="add-to-cart">Add to Cart</button>
                     </div>
-                    <!-- Add more product items here -->
                 </div>
             </div>
         </div>
