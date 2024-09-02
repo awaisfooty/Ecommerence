@@ -262,10 +262,11 @@ nav.navbar.navbar-expand-lg{
     background-color: #00FFDD;
     border-radius: 10px;
 }
-.letter input{
-    padding: 6px 30px;
-    border-radius: 10px;
-    border: 2px solid skyblue;
+.letter input {
+  padding: 6px 30px;
+  border-radius: 10px;
+  border: 2px solid skyblue;
+  width: 200px !important;
 }
 .letter button{
     padding: 4px 10px;
@@ -525,4 +526,10 @@ main {
   
 .add-to-cart:hover {
   background-color: #444;
+}
+
+img.new-post {
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
 }

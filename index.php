@@ -163,29 +163,34 @@
                 <div class="product-heading">Best Seller</div>
                 <div class="product-cards">
                     <?php
-                            $args = array(
-                                'post_type'  => 'product',
-                                'posts_per_page' => 5,
-                            );
-                            $loop = new WP_Query($args);
-                            while ( $loop->have_posts() ) {
-                                $loop->the_post();
-                                $id = get_the_ID();
-                                $prodcut_price = get_post_meta($id, 'product_price', true);
-                                $product_currency = get_post_meta($id, 'product_currency', true);
-                                $product_quantity = get_post_meta($id, 'product_quantity', true);
-                                ?>
-                                <div class="card-1">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="https://avatars.mds.yandex.net/i?id=8829ca1147ac4bcf0b2b47f0997396da54afbd6c-4077387-images-thumbs&n=13" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <a href="<?php echo get_the_permalink($id); ?>"><h5 class="card-title"><?php echo get_the_title();?></h5></a>
-                                            <p style="text-align: center;" class="card-text"><?php echo $product_quantity; ?> <br>  <?php echo $product_currency; ?> <?php echo $prodcut_price; ?></p>
-                                        </div>
+                        $args = array(
+                            'post_type'  => 'product',
+                            'posts_per_page' => 5,
+                        );
+                        $loop = new WP_Query($args);
+                        while ( $loop->have_posts() ) {
+                            $loop->the_post();
+                            $id = get_the_ID();
+                            $prodcut_price = get_post_meta($id, 'product_price', true);
+                            $product_currency = get_post_meta($id, 'product_currency', true);
+                            $product_quantity = get_post_meta($id, 'product_quantity', true);
+                            $featured_image_url = get_the_post_thumbnail_url($id);
+                            
+                            $image_size = 'medium';
+                            ?>
+                            <div class="card-1">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="<?php echo $featured_image_url;?>" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="<?php echo get_the_permalink($id); ?>"><h5 class="card-title"><?php echo get_the_title();?></h5></a>
+                                        <p style="text-align: center;" class="card-text"><?php echo $product_quantity; ?> <br>  <?php echo $product_currency; ?> <?php echo $prodcut_price; ?></p>
                                     </div>
                                 </div>
-                                <?php
-                            }
+                                
+                                
+                            </div>
+                            <?php
+                        }
                     ?>
                     <!-- <div class="card-1">
                         <div class="card" style="width: 18rem;">

@@ -31,6 +31,14 @@ function generate_custom_meta_boxes_for_product( $meta_boxes ) {
                 'desc'        => esc_html__( 'Add quantity for this product', 'online-generator' ),
                 'placeholder' => esc_html__( 'Add quantity', 'online-generator' ),
             ],
+            [
+                'type'             => 'image',
+                'name'             => esc_html__( 'Product Images', 'online-generator' ),
+                'id'               =>'product_images',
+                'max_file_uploads' => 4,
+                'force_delete'     => true,
+                'clone'            => true,
+            ],
 
         ],
     ];

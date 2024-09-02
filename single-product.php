@@ -3,7 +3,22 @@
     <div class="container">
         <div class="product-container">
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-1 col-lg-1">
+                    <?php
+                        $id = get_the_ID();
+                        $image_size = 'medium';
+                        $product_images = get_post_meta($id, 'product_images', true);
+                        if (!empty($product_images)){
+                            foreach ($product_images[0] as $image_id) {
+                                $image_url = wp_get_attachment_image_url($image_id, $image_size);
+                                ?>
+                                    <img style="height: 60px; border-radius:10px; width: 100%; margin-bottom: 10px;" src="<?php echo $image_url; ?>" alt="">
+                                <?php
+                            }
+                        }   
+                    ?>
+                </div>
+                <div class="col-sm-12 col-md-5 col-lg-5">
                     <?php 
                         $img = wp_get_attachment_image_src(get_post_thumbnail_id(),'small');
                         if ($img == ''){
