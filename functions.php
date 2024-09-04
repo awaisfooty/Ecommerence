@@ -32,4 +32,21 @@
     // Images
     add_theme_support('post-thumbnails');
 
+    // Template Links
+    if( !function_exists('homey_get_template_link_dash') ) {
+        function homey_get_template_link_dash($template) {
+            $args = array(
+                'meta_key' => '_wp_page_template',
+                'meta_value' => $template
+            );
+            $pages = get_pages($args);
+            if( $pages ) {
+                $add_link = get_permalink( $pages[0]->ID );
+            } else {
+                $add_link = '';
+            }
+            return $add_link;
+        }
+    }
+
 ?>

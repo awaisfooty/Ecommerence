@@ -11,7 +11,12 @@
                     <h3 style="text-align: end; padding-right: 40px; font-size: 30px; font-weight: 400;">For Your</h3>
                     <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Travelling</h2>
                     <h4 style="padding-right: 40px; text-align: end; font-size: 20px; font-weight: 400;">T-shirts Start At $24.00</h4>
-                    <div class="btn-adjust-1"> <button>Shop Now</button></div>
+                    <div class="btn-adjust-1">
+                        <?php
+                        $handBagsTemplate = homey_get_template_link_dash('template/template-category-shirt.php');
+                        ?>
+                        <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
+                    </div>
                     <div class="img-adjust">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/isolated-man-img.png" alt="">
                     </div>
@@ -22,7 +27,12 @@
                     <h5 style="color: white; padding-top: 40px; font-size: 14px; font-weight: 600; padding-left: 50px; letter-spacing: 2px;">Top New Arrivels</h5>
                     <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-left: 50px; font-size: 40px;">Fashion <br> Collection</h2>
                     <h4 style="padding-left: 40px; padding-top: 30px; font-size: 18px; font-weight: 400;">Discover Top New Desgins</h4>
-                    <div class="btn-adjust-2"> <button>Shop Now</button></div>
+                    <div class="btn-adjust-2">
+                    <?php
+                        $handBagsTemplate = homey_get_template_link_dash('template/template-category-hand-bags.php');
+                        ?>
+                        <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
+                    </div>
                     <div class="img-adjust-1">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/images__1_-removebg-preview (1).png" alt="">
                     </div>
@@ -41,7 +51,12 @@
                             <h5 style="color: rgb(41, 28, 28); text-align: end; padding-top: 40px; font-size: 14px; font-weight: 600; padding-right: 50px; letter-spacing: 2px;">Top New Arrivels</h5>
                             <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Sport</h2>
                             <h3 style="text-align: end; padding-right: 40px; font-size: 30px; font-weight: 400;">For Your</h3>
-                            <div class="btn-adjust-3"> <button>Shop Now</button></div>
+                            <div class="btn-adjust-3">
+                            <?php
+                                $handBagsTemplate = homey_get_template_link_dash('template/template-category-shirt.php');
+                                ?>
+                                <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
+                            </div>
                         </div>
                 </div>
             </div>
@@ -53,7 +68,12 @@
                             <div class="shoes-data">
                                 <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Shoe's</h2>
                                 <h3 style="text-align: end; color: white; padding-right: 40px; font-size: 30px; font-weight: 400;">For Your</h3>
-                                <a style="color: #FFFF00; font-size: 18px;"  href="">Shop Now →</a>
+                                <div>
+                                    <?php
+                                    $handBagsTemplate = homey_get_template_link_dash('template/template-category-men-nikers.php');
+                                    ?>
+                                    <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>    
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -63,7 +83,12 @@
                             <div class="watch-data">
                                 <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Watch</h2>
                                 <h3 style="text-align: end; color: white; padding-right: 40px; font-size: 30px; font-weight: 400;">Collection</h3>
-                                <a style="color: #FFFF00;" href="">Show Now  →</a>
+                                <div>
+                                    <?php
+                                    $handBagsTemplate = homey_get_template_link_dash('template/template-category-watches.php');
+                                    ?>
+                                    <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>    
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -135,7 +160,12 @@
                 <h5 style="color: white; padding-top: 40px; font-size: 14px; text-align: end; font-weight: 600; padding-right: 50px; letter-spacing: 2px;">Top New Arrivels</h5>
                 <h1 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Fashion</h1>
                 <h3 style="color: white; font-weight: 500; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Sunglassess</h3>
-                <div class="btn-adjust-4"> <button>Shop Now</button></div>
+                <div class="btn-adjust-4"> 
+                    <?php
+                    $handBagsTemplate = homey_get_template_link_dash('template/template-category-hand-bags.php');
+                    ?>
+                    <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
+                </div>
                 <div class="glass-img">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>./assets/images/_dc3IE6SE3c-removebg-preview.png" alt="">
                 </div>
@@ -148,7 +178,12 @@
                     <div class="niker-data">
                         <h2 style="color: white; font-weight: 700; letter-spacing: 2px; padding-right: 50px; text-align: end; font-size: 40px;">Nikers</h2>
                         <h3 style="text-align: end; color: white; padding-right: 40px; font-size: 30px; font-weight: 400;">Collection</h3>
-                        <a style="color: #FFFF00;" href="">Show Now  →</a>
+                        <div>
+                            <?php
+                            $handBagsTemplate = homey_get_template_link_dash('template/template-category-men-nikers.php');
+                            ?>
+                            <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
+                        </div>
                     </div>
                 </div>
             </div>
