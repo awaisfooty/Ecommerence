@@ -334,6 +334,7 @@ main {
   }
   #contact-form {
     max-width: 500px;
+    width: 365px;
     margin: 40px auto;
     padding: 20px;
     border: 1px solid #ccc;
