@@ -533,3 +533,21 @@ img.new-post {
   border-radius: 10px;
   object-fit: cover;
 }
+
+.niker-img img{
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.niker-img{
+  position: relative;
+}
+.niker-data{
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
+.short-niker {
+  margin-top: 100px;
+}

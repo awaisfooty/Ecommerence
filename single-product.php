@@ -33,7 +33,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="product-details">
-                    <h2>Men's Casual Shirt</h2>
+                    <h2><?php echo get_the_title();?></h2>
                     <p class="price">$25.99</p>
                     <div class="colors">
                         <p>Colors</p>
@@ -45,7 +45,7 @@
                     <span class="color" style="background-color: #FFFF00"></span>
                     </div>
                     
-                    <p class="description">A casual shirt for men, perfect for everyday wear.</p>
+                    <p class="description">A casual equiement, perfect for everyday wear.</p>
 
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
@@ -98,6 +98,4 @@
         </div>
     </div>
     
-
-
 <?php get_footer(); ?>
