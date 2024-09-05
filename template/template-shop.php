@@ -41,10 +41,19 @@
             ?>
             <div class="card-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="<?php echo $featured_image_url; ?>" class="card-img-top" alt="...">
+                    <div class="image-container">
+                        <img src="<?php echo $featured_image_url; ?>" class="card-img-top" alt="...">
+                        <div class="overlay">
+                            <div class="featured-box">
+                                <p>Featured</p>
+                            </div>
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
                     <div class="card-body">
                         <a href="<?php echo get_the_permalink($id); ?>">
-                            <h5 class="card-title"><?php echo get_the_title(); ?></h5>
+                            <h5 style="align-items: center; color: black;" class="card-title"><?php echo get_the_title(); ?></h5>
                         </a>
                         <p style="text-align: center;" class="card-text">
                             <?php echo $product_quantity; ?> <br>
@@ -96,10 +105,19 @@
             ?>
             <div class="card-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="<?php echo $featured_image_url; ?>" class="card-img-top" alt="...">
+                    <div class="image-container">
+                        <img src="<?php echo $featured_image_url; ?>" class="card-img-top" alt="...">
+                        <div class="overlay">
+                            <div class="featured-box">
+                                <p>Featured</p>
+                            </div>
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
                     <div class="card-body">
                         <a href="<?php echo get_the_permalink($id); ?>">
-                            <h5 class="card-title"><?php echo get_the_title(); ?></h5>
+                            <h5 style="align-items: center; color: black;" class="card-title"><?php echo get_the_title(); ?></h5>
                         </a>
                         <p style="text-align: center;" class="card-text">
                             <?php echo $product_quantity; ?> <br>
@@ -150,10 +168,19 @@
             ?>
             <div class="card-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="<?php echo $featured_image_url; ?>" class="card-img-top" alt="...">
+                    <div class="image-container">
+                            <img src="<?php echo $featured_image_url; ?>" class="card-img-top" alt="...">
+                        <div class="overlay">
+                            <div class="featured-box">
+                                <p>Featured</p>
+                            </div>
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
                     <div class="card-body">
                         <a href="<?php echo get_the_permalink($id); ?>">
-                            <h5 class="card-title"><?php echo get_the_title(); ?></h5>
+                            <h5 style="align-items: center; color: black;" class="card-title"><?php echo get_the_title(); ?></h5>
                         </a>
                         <p style="text-align: center;" class="card-text">
                             <?php echo $product_quantity; ?> <br>
@@ -204,10 +231,19 @@
             ?>
             <div class="card-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="<?php echo $featured_image_url; ?>" class="card-img-top" alt="...">
+                    <div class="image-container">
+                        <img src="<?php echo $featured_image_url; ?>" class="card-img-top" alt="...">
+                        <div class="overlay">
+                            <div class="featured-box">
+                                <p>Featured</p>
+                            </div>
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
                     <div class="card-body">
                         <a href="<?php echo get_the_permalink($id); ?>">
-                            <h5 class="card-title"><?php echo get_the_title(); ?></h5>
+                            <h5 style="align-items: center; color: black;" class="card-title"><?php echo get_the_title(); ?></h5>
                         </a>
                         <p style="text-align: center;" class="card-text">
                             <?php echo $product_quantity; ?> <br>

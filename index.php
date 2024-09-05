@@ -15,7 +15,7 @@
                         <?php
                         $handBagsTemplate = homey_get_template_link_dash('template/template-category-shirt.php');
                         ?>
-                        <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
+                        <a style="color: #FFFF00; font-size: 18px; padding: 10px 10px; background-color: black; border-radius: 25px; text-decoration: none;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
                     </div>
                     <div class="img-adjust">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/isolated-man-img.png" alt="">
@@ -31,7 +31,7 @@
                     <?php
                         $handBagsTemplate = homey_get_template_link_dash('template/template-category-hand-bags.php');
                         ?>
-                        <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
+                        <a style="color: #FFFF00; font-size: 18px; padding: 10px 10px; background-color: black; border-radius: 25px; text-decoration: none; " href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
                     </div>
                     <div class="img-adjust-1">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/images__1_-removebg-preview (1).png" alt="">
@@ -55,7 +55,7 @@
                             <?php
                                 $handBagsTemplate = homey_get_template_link_dash('template/template-category-shirt.php');
                                 ?>
-                                <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
+                                <a style="color: #FFFF00; font-size: 18px; padding: 10px 10px; background-color: black; border-radius: 25px; text-decoration: none;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
                             </div>
                         </div>
                 </div>
@@ -72,7 +72,7 @@
                                     <?php
                                     $handBagsTemplate = homey_get_template_link_dash('template/template-category-men-nikers.php');
                                     ?>
-                                    <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>    
+                                    <a style="color: #FFFF00; font-size: 18px; padding: 10px 10px; background-color: black; border-radius: 25px; text-decoration: none;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>    
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                                     <?php
                                     $handBagsTemplate = homey_get_template_link_dash('template/template-category-watches.php');
                                     ?>
-                                    <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>    
+                                    <a style="color: #FFFF00; font-size: 18px; padding: 10px 10px; background-color: black; border-radius: 25px; text-decoration: none;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>    
                                 </div>
                             </div>
                         </div>
@@ -104,51 +104,62 @@
         </div>
         <div class="product-heading">Featured Product</div>
         <div class="product-cards">
-            <div class="card-1">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://avatars.mds.yandex.net/i?id=d0ba8c62bb0c956054484f0197d588ad815b6ffd-12208630-images-thumbs&n=13" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Long-Sleeve Shirt male Slim Fashion stand</h5>
-                        <p style="text-align: center;" class="card-text">$2500.00</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-1">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://avatars.mds.yandex.net/i?id=f282d19afce3a8987096e1063a01b75b614fae7f-4340110-images-thumbs&n=13" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">140+ Sublimation TShirt Template Psd Free </h5>
-                        <p style="text-align: center;" class="card-text">$2399.00</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-1">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://avatars.mds.yandex.net/i?id=15784299e4039d132f44fe3c5f714c590393b99e8a0bad6b-10231289-images-thumbs&n=13" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Breitling for bentley mulliner tourbillon Breitling</h5>
-                        <p style="text-align: center;" class="card-text">$2199.00</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-1">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://avatars.mds.yandex.net/i?id=f0c5ed5fd39725f2b5c3235ada227e06308ffd39-12421984-images-thumbs&n=13" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Sacai x Nike VaporWaffle Black Gum DD1875</h5>
-                        <p style="text-align: center;" class="card-text">$2399.00</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-1">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://avatars.mds.yandex.net/i?id=ceb339d33f9b6cb0eb38caccbc4d591651001a8c-8178604-images-thumbs&n=13" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Shoulder Bag Bolsas Femininas Sac Fashion </h5>
-                        <p style="text-align: center;" class="card-text">$2799.00</p>
-                    </div>
-                </div>
-            </div>
+                <?php
+                $args = array(
+                    'post_type'  => 'product',
+                    'posts_per_page' => 5,
+                    'tax_query' => array(
+                    ),
+                );
+
+                $loop = new WP_Query($args);
+
+                if ($loop->have_posts()) {
+                    while ($loop->have_posts()) {
+                        $loop->the_post();
+                        $id = get_the_ID();
+
+                        // Get product metadata
+                        $product_price = get_post_meta($id, 'product_price', true);
+                        $product_currency = get_post_meta($id, 'product_currency', true);
+                        $product_quantity = get_post_meta($id, 'product_quantity', true);
+                        $featured_image_url = get_the_post_thumbnail_url($id, 'medium');
+
+                        // Display product card
+                        ?>
+                        <div class="card-1">
+                            <div class="card" style="width: 18rem;">
+                            <div class="image-container">
+                                <img src="<?php echo $featured_image_url; ?>" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="featured-box">
+                                        <p>Featured</p>
+                                    </div>
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                    <button class="add-to-cart-btn">Add to Cart</button>
+                                </div>
+                            </div>
+                                <div class="card-body">
+                                    <a href="<?php echo get_the_permalink($id); ?>">
+                                        <h5 class="card-title"><?php echo get_the_title(); ?></h5>
+                                    </a>
+                                    <p style="text-align: center;" class="card-text">
+                                        <?php echo $product_quantity; ?> <br>
+                                        <?php echo $product_currency; ?> <?php echo $product_price; ?>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <?php
+                    }
+                } else {
+                    // Display a message if no products are found
+                    echo '<p>No products found.</p>';
+                }
+
+                // Reset the post data
+                wp_reset_postdata();
+                ?>
         </div> 
     </div>
 </product-section>
@@ -164,7 +175,7 @@
                     <?php
                     $handBagsTemplate = homey_get_template_link_dash('template/template-category-hand-bags.php');
                     ?>
-                    <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
+                    <a style="color: #FFFF00; font-size: 18px; padding: 10px 10px; background-color: black; border-radius: 25px; text-decoration: none;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
                 </div>
                 <div class="glass-img">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>./assets/images/_dc3IE6SE3c-removebg-preview.png" alt="">
@@ -182,7 +193,7 @@
                             <?php
                             $handBagsTemplate = homey_get_template_link_dash('template/template-category-men-nikers.php');
                             ?>
-                            <a style="color: #FFFF00; font-size: 18px;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
+                            <a style="color: #FFFF00; font-size: 18px; padding: 10px 10px; background-color: black; border-radius: 25px; text-decoration: none;" href="<?php echo esc_url($handBagsTemplate);?>">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -223,7 +234,16 @@
                         ?>
                         <div class="card-1">
                             <div class="card" style="width: 18rem;">
+                            <div class="image-container">
                                 <img src="<?php echo $featured_image_url; ?>" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="featured-box">
+                                        <p>Featured</p>
+                                    </div>
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                    <button class="add-to-cart-btn">Add to Cart</button>
+                                </div>
+                            </div>
                                 <div class="card-body">
                                     <a href="<?php echo get_the_permalink($id); ?>">
                                         <h5 class="card-title"><?php echo get_the_title(); ?></h5>

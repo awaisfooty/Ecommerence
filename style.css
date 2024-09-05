@@ -552,3 +552,55 @@ img.new-post {
 .short-niker {
   margin-top: 100px;
 }
+.image-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+.image-container:hover .overlay {
+  display: block;
+  text-align: end;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+.featured-box {
+  color: #fff;
+  background-color: #95A3BA;
+  height: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 5px;
+  width: 60px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.overlay i {
+  color: #fff;
+  font-size: 24px;
+}
+.add-to-cart-btn {
+  background-color: #95A3BA;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.add-to-cart-btn:hover {
+  background-color: #95A3BA;
+}
