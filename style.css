@@ -26,6 +26,7 @@ Description: Blog,Shop
     border-radius: 15px;
     height: 425px;
     margin-top: 45px;
+    width: 645px;
     background-color: #ff8900;
     position: relative;
 }
@@ -35,7 +36,8 @@ Description: Blog,Shop
 .icons{
     font-size: 25px;
     font-weight: 600;
-    
+    display: flex;
+
 }
 ul#menu-top-menu {
     list-style: none;
@@ -74,6 +76,7 @@ ul.sub-menu {
     padding: 20px;
     border-radius: 15px;
     height: 400px;
+    width: 615px;
     margin-top: 45px;
     background-color: #00a8ff;
     position: relative;
@@ -186,6 +189,7 @@ ul.sub-menu {
     border-radius: 20px;
     margin-top: 100px;
     height: 300px;
+    width: 850px;
     position: relative;
 }
 .btn-adjust-4{
@@ -533,6 +537,7 @@ img.new-post {
   height: 300px;
   border-radius: 10px;
   object-fit: cover;
+  width: 100%;
 }
 
 .niker-img img{
@@ -588,13 +593,14 @@ img.new-post {
   color: #fff;
   font-size: 24px;
 }
-.add-to-cart-btn {
+.add-cart a {
   background-color: #95A3BA;
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  text-decoration: none;
   position: absolute;
   bottom: 10px;
   left: 50%;
@@ -603,4 +609,71 @@ img.new-post {
 
 .add-to-cart-btn:hover {
   background-color: #95A3BA;
+}
+.icons i{
+  font-size: 25px;
+  cursor: pointer;
+}
+.container {
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-info {
+  width: 60%;
+  margin-right: 20px;
+}
+
+.product-info img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+#add-to-cart-form {
+  margin-top: 20px;
+}
+
+#add-to-cart-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#add-to-cart-form input[type="text"], #add-to-cart-form input[type="email"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#add-to-cart-form input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#add-to-cart-form input[type="submit"]:hover {
+  background-color: #3e8e41;
 }

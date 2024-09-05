@@ -20,10 +20,28 @@
                       
                       ?>
                       <div class="icons">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-user"></i>
-                        <i class="fa-solid fa-cart-shopping"></i>
+                        <div>
+                            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </div>
+                        <div>
+                          <?php
+                            $handBagsTemplate = homey_get_template_link_dash('template/template-category-wishlist.php');
+                          ?>
+                              <a href="<?php echo esc_url($handBagsTemplate);?>"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <div>
+                          <?php
+                            $handBagsTemplate = homey_get_template_link_dash('template/template-category-my-account.php');
+                          ?>
+                          <a href="<?php echo esc_url($handBagsTemplate);?>"><i class="fa-solid fa-user"></i></a>
+                        </div>
+                        <div>
+                          <?php
+                            $handBagsTemplate = homey_get_template_link_dash('template/template-category-add-to-cart.php');
+                          ?>
+                          <a href="<?php echo esc_url($handBagsTemplate);?>"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                      </div>
                       </div>
                   </div>
                 </div>
