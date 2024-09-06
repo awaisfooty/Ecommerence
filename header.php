@@ -21,7 +21,10 @@
                       ?>
                       <div class="icons">
                         <div>
-                            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <?php
+                            $handBagsTemplate = homey_get_template_link_dash('template/template-category-search.php');
+                          ?>
+                            <a href="<?php echo esc_url($handBagsTemplate);?>"><i class="fa-solid fa-magnifying-glass"></i></a>
                         </div>
                         <div>
                           <?php

@@ -48,7 +48,12 @@
                                 <p>Featured</p>
                             </div>
                             <i class="fa fa-heart" aria-hidden="true"></i>
-                            <button class="add-to-cart-btn">Add to Cart</button>
+                            <div class="add-cart">
+                            <?php
+                                $handBagsTemplate = homey_get_template_link_dash('template/template-category-add-to-cart.php');
+                            ?>
+                            <a class="add-to-cart-btn" href="<?php echo esc_url($handBagsTemplate);?>">Add to Cart</a>
+                            </div>
                         </div>
                     </div>
                     <div class="card-body">
@@ -112,7 +117,12 @@
                                 <p>Featured</p>
                             </div>
                             <i class="fa fa-heart" aria-hidden="true"></i>
-                            <button class="add-to-cart-btn">Add to Cart</button>
+                            <div class="add-cart">
+                            <?php
+                                $handBagsTemplate = homey_get_template_link_dash('template/template-category-add-to-cart.php');
+                            ?>
+                            <a class="add-to-cart-btn" href="<?php echo esc_url($handBagsTemplate);?>">Add to Cart</a>
+                            </div>
                         </div>
                     </div>
                     <div class="card-body">
@@ -175,7 +185,12 @@
                                 <p>Featured</p>
                             </div>
                             <i class="fa fa-heart" aria-hidden="true"></i>
-                            <button class="add-to-cart-btn">Add to Cart</button>
+                            <div class="add-cart">
+                            <?php
+                                $handBagsTemplate = homey_get_template_link_dash('template/template-category-add-to-cart.php');
+                            ?>
+                            <a class="add-to-cart-btn" href="<?php echo esc_url($handBagsTemplate);?>">Add to Cart</a>
+                            </div>
                         </div>
                     </div>
                     <div class="card-body">
@@ -242,7 +257,7 @@
                             <?php
                                 $handBagsTemplate = homey_get_template_link_dash('template/template-category-add-to-cart.php');
                             ?>
-                            <a href="<?php echo esc_url($handBagsTemplate);?>">Add to Cart</a>
+                            <a class="add-to-cart-btn" href="<?php echo esc_url($handBagsTemplate);?>">Add to Cart</a>
                             </div>
                         </div>
                     </div>

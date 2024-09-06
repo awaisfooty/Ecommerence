@@ -7,9 +7,9 @@
 <body>
   <div class="container">
     <div class="product-info">
-      <h2>Product Name</h2>
-      <img src="product-image.jpg" alt="Product Image">
-      <p>Product Description</p>
+        <h2>Product Name</h2>
+        <img src="product-image.jpg" alt="Product Image">
+      <p>This item is perfect for you. Thanks You For Shoping!</p>
       <p>Price: $X.XX</p>
     </div>
     <div class="sidebar">
