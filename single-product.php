@@ -46,12 +46,7 @@
                     </div>
                     
                     <p class="description">A casual equiement, perfect for everyday wear.</p>
-                    <div class="add-cart">
-                    <?php
-                        $handBagsTemplate = homey_get_template_link_dash('template/template-category-add-to-cart.php');
-                    ?>
-                    <a href="<?php echo esc_url($handBagsTemplate);?>">Add to Cart</a>
-                    </div>
+                    <a class="add-to-cart-btn" href="http://localhost/ecommerence/add-to-cart/">Add To Cart</a>
                 </div>
                 </div>
             </div>

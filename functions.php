@@ -29,7 +29,7 @@
         array('primary-menu'=>'Top Menu')
     );
 
-    // Images
+    // TO ADD FEATURED Images
     add_theme_support('post-thumbnails');
 
     // Template Links
@@ -48,5 +48,85 @@
             return $add_link;
         }
     }
+
+
+    // VARIABLES
+    // $test = 4 + 5;
+    // $price = 105 - 10;
+    // $price = 10 * 10;
+    // $price = 15 / 5;
+
+    // $actual_price = 100;
+    // $discount_price = 10;
+
+    // $newPrice = 100 - 90;
+
+    // $title = get_the_title($post_id);
+
+    // $description = get_the_content($post_id);
+    
+    // $post_id = 165;
+    // $product_price = get_post_meta($post_id, 'product_price', true);
+    // $product_price = '';
+    
+    // if (empty($product_price)){
+    //     echo 'value not found';
+    // }else{
+    //     echo $product_price;
+    // }
+
+    // $one = "what is the name";
+    // $two = "umiar";
+
+    // echo $one . " " . $two;
+
+    // $title = get_the_title($post_id);
+
+    // echo $title;
+
+    // echo $result;
+
+    // Condition
+
+    // $a = 10;
+    // $b = 15;
+    // $c = 20;
+
+    // if ($a < 5){
+    //     echo "A is smaller then 5";
+    // }elseif($a < 11){
+    //     echo "A is smaller then 11";
+    // }else {
+    //     echo "A is not in the conditions";
+    // }
+
+    // $values = array('one', 'two', 'three', 'four', 'five');
+
+    // foreach($values as $value){
+    //     echo $value;
+    //     echo "<br>";
+    // }
+   
+    // $fname = "Jenifer"
+    //    echo "Hello $fname";
+
+    //$fname = "Jenifer"
+    ///echo "Hello $fname";
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
 
 ?>

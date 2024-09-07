@@ -138,9 +138,9 @@
                                     <i class="fa fa-heart" aria-hidden="true"></i>
                                     <div class="add-cart">
                                     <?php
-                                        $handBagsTemplate = homey_get_template_link_dash('template/template-category-add-to-cart.php');
+                                        $handBagsTemplate = homey_get_template_link_dash('template/template-add-to-cart.php');
                                     ?>
-                                    <a href="<?php echo esc_url($handBagsTemplate);?>">Add to Cart</a>
+                                    <a href="<?php echo esc_url($handBagsTemplate); ?>?id=<?php echo $id; ?>">Add to Cart</a>
                                     </div>
                                 </div>
                             </div>
@@ -248,7 +248,7 @@
                                     <i class="fa fa-heart" aria-hidden="true"></i>
                                     <div class="add-cart">
                                     <?php
-                                        $handBagsTemplate = homey_get_template_link_dash('template/template-category-add-to-cart.php');
+                                        $handBagsTemplate = homey_get_template_link_dash('template/template-add-to-cart.php');
                                     ?>
                                     <a href="<?php echo esc_url($handBagsTemplate);?>">Add to Cart</a>
                                     </div>
